@@ -8,7 +8,7 @@
     margin-top: 5rem;
 }
 
-#character-options {
+#caracter-options {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -64,11 +64,22 @@
     border-radius: 50%;
 }
 
-#character-image {
+#caracter-image {
     width: 30%;
 }
 
-#character-image img {
+#caracter-image img {
     margin-top: 5rem;
     height: 450px;
+    animation: caracter-float 3s ease-in-out infinite;
+}
+
+@keyframes caracter-float {
+    0%, 100% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
 }
