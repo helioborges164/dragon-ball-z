@@ -1,3 +1,4 @@
+//Personagens
 const caracters = {
     goku: {
         name:"Goku",
@@ -40,26 +41,12 @@ const caracters = {
     }
 }
 
-const btnCaracters = document.querySelectorAll(".symbols-image")
-const nameTitle = document.getElementById("image-caracter")
-const descriptionCaracter = document.getElementById("description-caracters")
-const actionImage = document.getElementById("action-image")
-const caracterImage = document.getElementById("image-main")
-
-
-btnCaracters.forEach(btn => {
-    btn.addEventListener("click", () => {
-        const name = btn.getAttribute("data-caracter")
-        updateCaracters(name)
-    })
-})
-
-const updateCaracters = (name) => {
-    const caracter = caracters[name]
-    if (caracter) {
-        nameTitle.src = caracter.nameImage
-        descriptionCaracter.innerText = caracter.description
-        actionImage.src = caracter.imageCard
-        caracterImage.src = caracter.imageMain
-    }
-}
+//Slides
+const slides = [
+    "assets/image/slide-01.jpg",
+    "assets/image/slide-02.jpg",
+    "assets/image/slide-03.jpg",
+    "assets/image/slide-04.jpg",
+    "assets/image/slide-05.jpg",
+    "assets/image/slide-06.jpg"
+]
