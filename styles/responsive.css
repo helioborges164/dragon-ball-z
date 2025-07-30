@@ -1,5 +1,15 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
 
+    /*Ajustes Gerais*/
+    .global-section {
+    min-height: 100vh;
+}
+
+    #container .title {
+        margin: 8rem 0 3rem;
+    }
+
+    /*Cabeçalho*/
     #header #nav-list {
         display: none;
         flex-direction: column;
@@ -22,4 +32,77 @@
         display: block;
     }
 
+    /*Parte 2 - Noticias*/
+    #news #box-news {
+        flex-direction: column;
+        height: 35rem;
+        width: 25rem;
+    }
+
+    #box-news #banner {
+        height: 40%;
+        width: 100%;
+    }
+
+    #box-news #box-description {
+        height: 60%;
+        width: 100%;
+    }
+
+    /*Parte 3 - Personagens*/
+    #caracters #box-caracters {
+        flex-direction: column-reverse;
+        gap: 5rem;
+    }
+
+    #caracter-options #name-caracter {
+        display: none;
+    }
+
+    #caracter-options #action-image {
+        display: none;
+    }
+
+    #caracter-options #description-caracters {
+        display: none;
+    }
+
+    #box-caracters #caracter-image {
+        width: 50%;
+    }
+
+    #box-caracters #caracter-image img {
+        height: 425px;
+        margin-top: 10rem;
+    }
+
+    /*Parte 4 - Slides*/
+
+    #box-slider {
+        margin-top: 15rem;
+    }
+
+    #box-slider #interface .slide {
+        width: 590px;
+        height: 320px;
+    }
+
+    #interface .slide.left {
+        display: none;
+    }
+
+    #interface .slide.right {
+        display: none;
+    }
+
+    #box-slider #setas {
+        gap: 34.5rem;
+        visibility: hidden;
+    }
+
+    #btn-interface .btn-slide {
+        margin-top: 8.5rem;
+        height: 25px;
+        width: 25px;
+    }
 }

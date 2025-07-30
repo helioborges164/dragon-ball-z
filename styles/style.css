@@ -50,6 +50,8 @@ body {
     height: 100vh;
     object-fit: cover;
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: -5;
 }
 
@@ -62,7 +64,6 @@ body {
 }
 
 /*Ajustes Gerais*/
-
 #container #home, #news, #caracters, #highlights {
     position: relative;
     overflow: hidden;
@@ -82,7 +83,6 @@ body {
 }
 
 /*Cabeçalho*/
-
 #header { 
     display: flex;
     align-items: center;
@@ -169,7 +169,6 @@ body {
 }
 
 /*formulario de login*/
-
 #form-login {
     position: fixed;
     top: 55%;
@@ -312,7 +311,6 @@ a {
 }
 
 /*Parte 1 - Inicio*/
-
 #box-home {
     display: flex;
     flex-direction: column;
@@ -356,7 +354,6 @@ a {
 }
 
 /*Parte 2 - Noticias*/
-
 #box-news {
     width: 55rem;
     height: 20rem;
@@ -416,7 +413,6 @@ a {
 }
 
 /*Parte 3 - Personagens*/
-
 #box-caracters {
     position: relative;
     top: -20%;
@@ -467,7 +463,6 @@ a {
 .symbols-image {
     background: transparent;
     border: none;
-    cursor: pointer;
 }
 
 .symbols-image img {
@@ -475,6 +470,7 @@ a {
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
     border: 2px solid transparent;
+    cursor: pointer;
 }
 
 .symbols-image img:hover {
@@ -493,10 +489,7 @@ a {
     animation: caracter-float 3s ease-in-out infinite;
 }
 
-
-
 /*Parte 4 - Slides*/
-
 #box-slider {
     position: relative;
 }
@@ -599,7 +592,6 @@ a {
 }
 
 /*Parte 5 - Rodape*/
-
 #footer {
     width: 100%;
     height: 10%;
