@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./assets/image/dbz-icone.ico" type="image/x-icon">
+    <title>Dragon Ball Z</title>
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header id="header">
+        <a href="#" id="logo-image">
+            <img src="./assets/image/dbz-logo.png" alt="logo">
+        </a>
+        <nav id="navbar">
+            <ul id="nav-list">
+                <li class="list-item">
+                    <a href="#home" class="item">Inicio</a>
+                </li>
+
+                <li class="list-item">
+                    <a href="#news" class="item">Notícias</a>
+                </li>
+
+                <li class="list-item">
+                    <a href="#caracters" class="item">Personagens</a>
+                </li>
+
+                <li class="list-item">
+                    <a href="#highlights" class="item">Destaques</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="box-sound-login">
+            <button class="btn-sound">
+                <img class="image-sound" src="./assets/image/sound-off.png" alt="musica">
+            </button>
+
+            <button class="btn-login">
+                <img class="image-login" src="./assets/image/login-off.png" alt="login">
+            </button>
+
+            <button class="btn-menu">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <main id="container">
+        <!--Midia-->
+        <div id="box-multimidia">
+            <div id="shadow"></div>
+            <video id="video-desktop" src="./assets/video/background.mp4" loop muted autoplay></video>
+            <audio id="music-dbz" src="./assets/audio/dragonball-z.MP3" loop></audio>
+        </div>
+        <!--Formulario-->
+        <div id="form-login">
+            <button class="btn-close">
+                <img src="./assets/image/ball.png" alt="fechar">
+            </button>
+
+            <h2 class="title-form">
+                <img src="./assets/image/dbz-logo.png" alt="imagem-login">
+            </h2>
+            
+            <form>
+                <div class="input-form">
+                    <input type="email" placeholder="Endereço de e-mail">
+                    <i class="bi bi-person-fill"></i>
+                </div>
+                <div class="input-form">
+                    <input type="password" placeholder="Digite sua senha">
+                    <i class="bi bi-lock-fill"></i>
+                </div>
+                <div id="remember-forgot">
+                    <label><input type="checkbox" id="check-box">Lembrar</label>
+                    <a href="#">Esqueceu a senha</a>
+                </div>
+
+                <button id="btn-submit">Entrar</button>
+
+                <div id="register-form">
+                    <p>
+                        Não tem uma conta? <a href="#">Cadastre-se</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+        <!--Part 1 - Inicio-->
+        <section id="home" class="global-section">
+            <div id="box-home">
+                <h1 class="main-title">
+                    <img src="./assets/image/dbz-titulo.png" alt="titulo">
+                </h1>
+
+                <div id="link-platforms">
+                    <a class="btn-link"
+                        href="https://store.steampowered.com/app/851850/DRAGON_BALL_Z_KAKAROT/?l=portuguese&lang=th"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/image/steam.png" alt="steam">
+                    </a>
+                    <a class="btn-link" href="https://www.xbox.com/pt-BR/games/store/dragon-ball-z-kakarot/BT5X0XGCWGD6"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/image/xbox.png" alt="xbox">
+                    </a>
+                    <a class="btn-link"
+                        href="https://store.playstation.com/pt-br/product/UP0700-PPSA08084_00-ATREMASTER001PS5"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/image/playstation.png" alt="playstation">
+                    </a>
+                    <a class="btn-link"
+                        href="https://www.nintendo.com/pt-br/store/products/dragon-ball-z-kakarot-plus-a-new-power-awakens-set-switch/"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="./assets/image/nintendo.png" alt="nintendo">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--Part 2 - Noticias-->
+        <section id="news" class="global-section">
+            <h2 class="title">
+                <span class="ball">✪</span>
+                Notícias
+                <span class="ball">✪</span>
+            </h2>
+
+            <div id="box-news">
+                <div id="banner">
+                    <iframe id="trailer" width="560" height="315"
+                        src="https://www.youtube.com/embed/27QCyiLjKeo?enablejsapi=1&si=OQmFu6eUytiIGbwh"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+                <div id="box-description">
+                    <div class="news-tab-title">
+                        <h3 class="title-information">Informações</h3>
+                    </div>
+
+                    <ul class="info-list">
+                        <li>
+                            <span class="info">⍟ Nova Saga da História</span>
+                        </li>
+                        <li>
+                            <span class="info">⍟ Novos Personagens</span>
+                        </li>
+                        <li>
+                            <span class="info">⍟ Novas Transformações</span>
+                        </li>
+                        <li>
+                            <span class="info">⍟ Novos Super Ataques</span>
+                        </li>
+                        <li>
+                            <span class="info">⍟ Itens de experiência</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Part 3 - Personagens-->
+        <section id="caracters" class="global-section">
+            <h2 class="title">
+                <span class="ball">✪</span>
+                Personagens
+                <span class="ball">✪</span>
+            </h2>
+
+            <div id="box-caracters">
+                <div id="caracter-options">
+                    <h3 id="name-caracter">
+                        <img id="image-caracter" src="./assets/image/titulo-goku.png" alt="nome-personagem">
+                    </h3>
+                    <p id="description-caracters">
+                        Goku é gentil, ingênuo e otimista. Ama lutar para se superar, valoriza os amigos e tem um
+                        coração puro e corajoso.
+                    </p>
+
+                    <img id="action-image" src="./assets/image/goku.gif" alt="caracter-action">
+
+                    <div id="symbols-options">
+                        <button class="symbols-image" data-caracter="goku">
+                            <img src="./assets/image/simbolo-goku.jpg" alt="simbolo-goku">
+                        </button>
+                        <button class="symbols-image" data-caracter="vegeta">
+                            <img src="./assets/image/simbolo-vegeta.jpg" alt="simbolo-vegeta">
+                        </button>
+                        <button class="symbols-image" data-caracter="piccolo">
+                            <img src="./assets/image/simbolo-piccolo.jpg" alt="simbolo-piccolo">
+                        </button>
+                        <button class="symbols-image" data-caracter="gohan">
+                            <img src="./assets/image/simbolo-gohan.jpg" alt="simbolo-gohan">
+                        </button>
+                        <button class="symbols-image" data-caracter="trunks">
+                            <img src="./assets/image/simbolo-trunks.jpg" alt="simbolo-trunks">
+                        </button>
+
+                    </div>
+                </div>
+                <div id="caracter-image">
+                    <img id="image-main" src="./assets/image/goku.png" alt="caracters">
+                </div>
+            </div>
+        </section>
+        <!--Part 4 - Destaques-->
+        <section id="highlights" class="global-section">
+            <h2 class="title">
+                <span class="ball">✪</span>
+                Destaques
+                <span class="ball">✪</span>
+            </h2>
+
+            <div id="box-slider">
+                <div id="interface">
+                    <div class="slide left">
+                        <img id="left" src="./assets/image/slide-02.jpg" alt="slide-imagem">
+                    </div>
+
+                    <div class="slide active">
+                        <img id="center" src="./assets/image/slide-01.jpg" alt="slide-imagem">
+                    </div>
+
+                    <div class="slide right">
+                        <img id="right" src="./assets/image/slide-03.jpg" alt="slide-imagem">
+                    </div>
+                </div>
+
+                <div id="setas">
+                    <button id="prev" class="btn-arrow">
+                        <img src="./assets/image/seta.png" alt="Seta">
+                    </button>
+                    <button id="next" class="btn-arrow">
+                        <img src="./assets/image/seta.png" alt="Seta">
+                    </button>
+                </div>
+
+                <div id="btn-interface">
+                    <div class="btn-slide active"></div>
+                    <div class="btn-slide"></div>
+                    <div class="btn-slide"></div>
+                    <div class="btn-slide"></div>
+                    <div class="btn-slide"></div>
+                    <div class="btn-slide"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>
+            Apenas para estudo. Todos os direitos reservados aos criadores.
+        </p>
+        <p>
+            Desenvolvido por Hélio Borges – 2025
+        </p>
+    </footer>
+</body>
+</html>
