@@ -3,17 +3,18 @@ const btnLogin = document.querySelector(".btn-login")
 const btnClose = document.querySelector(".btn-close")
 const imageSound = document.querySelector(".image-sound")
 
-const music = document.getElementById("music-dbz")
+const music = new Audio("./assets/audio/dragonball-z.MP3")
 let activeAudio = false
 
 function soundClick() {
     
 
     if (activeAudio) {
-        imageSound.src = "/assets/image/sound-off.png"
+        imageSound.src = "./assets/image/sound-off.png"
         music.pause()
     } else {
-        imageSound.src = "/assets/image/sound-on.png"
+        imageSound.src = "./assets/image/sound-on.png"
+        music.loop = true
         music.play()
     }
     activeAudio = !activeAudio
@@ -41,7 +42,7 @@ const formLogin = document.getElementById("form-login")
 const imageLogin = document.querySelector(".image-login")
 
 function soundEffect() {
-    const audio = new Audio("./assets/audio/teleport-sound.mp3")
+    const audio = new Audio("./assets/audio/teleport-sound.MP3")
     audio.play()
 }
 
