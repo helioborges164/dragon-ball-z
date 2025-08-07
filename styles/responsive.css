@@ -1,0 +1,345 @@
+@media (max-width: 900px) {
+
+    /*Gerais*/
+    
+    .title {
+        margin: 8rem 0 3rem;
+    }
+
+    /*Cabeçalho*/
+    #header {
+        padding: 3rem;
+    }
+
+    #nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: rgba(13, 27, 82, 0.6);
+        backdrop-filter: blur(10px);
+        width: 100%;
+        text-align: center;
+        gap: 0;
+    }
+
+    .list-item {
+        padding: 2rem;
+        border-bottom: 1px solid var(--orange);
+        width: 100%;
+    }
+
+    .btn-menu {
+        display: block;
+    }
+
+    /*Formulario*/
+    #form-login {
+        width: 480px;
+        top: 50%;
+    }
+
+    .btn-close {
+        top: 2%;
+        left: 85%;
+    }
+
+    .btn-close img {
+        width: 65px;
+    }
+
+    .title-form img {
+        width: 185px;
+    }
+
+    .input-form {
+        margin-bottom: 35px;
+    }
+
+    .input-form input {
+        height: 55px;
+    }
+
+    #register-form {
+        font-size: 16px;
+    }
+
+    /*Parte 2 - Noticias*/
+    #box-news {
+        flex-direction: column;
+        height: 40rem;
+        width: 30rem;
+    }
+
+    #banner {
+        height: 40%;
+        width: 100%;
+    }
+
+    #box-description {
+        height: 60%;
+        width: 100%;
+    }
+
+    .info {
+        line-height: 3.8rem;
+    }
+
+    /*Parte 3 - Personagens*/
+    #box-caracters {
+        flex-direction: column-reverse;
+        gap: 5rem;
+    }
+
+    #name-caracter {
+        display: none;
+    }
+
+    #action-image {
+        display: none;
+    }
+
+    #description-caracters {
+        display: none;
+    }
+
+    #symbols-options {
+        gap: 1rem;
+    }
+
+    #caracter-image {
+        width: 50%;
+    }
+
+    #caracter-image img {
+        height: 425px;
+        margin-top: 15rem;
+    }
+
+    /*Parte 4 - Slides*/
+
+    #box-slider {
+        margin-top: 10rem;
+    }
+
+    .slide {
+        width: 590px;
+        height: 320px;
+    }
+
+    .slide.left {
+        display: none;
+    }
+
+    .slide.right {
+        display: none;
+    }
+
+    #setas {
+        gap: 34.5rem;
+        visibility: hidden;
+    }
+
+    .btn-slide {
+        margin-top: 8.5rem;
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /*Gerais*/
+    .title {
+        font-size: 2rem;
+    }
+
+    /*Cabeçalho*/
+    #header {
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    #logo-image {
+        margin-right: 10px;
+    }
+
+    #logo-image img {
+        width: 105px;
+    }
+
+    #box-sound-login {
+        gap: 25px;
+    }
+
+    .btn-sound img, .btn-login img {
+        width: 40px;
+    }
+
+    .btn-menu {
+        font-size: 25px;
+    }
+
+    /*Formulario*/
+    #form-login {
+        width: 420px;
+        top: 50%;
+    }
+
+    .btn-close {
+        top: 2%;
+        left: 84%;
+    }
+
+    .btn-close img {
+        width: 60px;
+    }
+
+    .title-form img {
+        width: 180px;
+    }
+
+    .input-form {
+        margin-bottom: 32px;
+    }
+    
+    /*Parte 1 - Inicio*/
+    .main-title img {
+        width: 300px;
+    }
+
+    #link-platforms {
+    gap: 1rem;
+}
+
+    #link-platforms a {
+    width: 4.5rem;
+    height: 2.5rem;
+    }
+
+    #link-platforms a img {
+    width: 40px;
+    }
+
+    /*Parte 2 - Noticias*/
+    #box-news {
+        flex-direction: column;
+        height: 30rem;
+        width: 20rem;
+    }
+
+    #banner {
+        height: 40%;
+        width: 100%;
+    }
+
+    #box-description {
+        height: 60%;
+        width: 100%;
+    }
+
+    .info {
+        line-height: 3rem;
+    }
+
+    /*Parte 3 - Personagens*/
+    #box-caracters {
+        gap: 3.5rem;
+    }
+
+    #caracter-options {
+        padding: 1rem;
+    }
+
+    #caracter-image img {
+        height: 340px;
+        margin-top: 8rem;
+    }
+
+    /*Parte 4 - Slides*/
+    #box-slider {
+        margin-top: 8rem;
+    }
+
+    .slide {
+        width: 380px;
+        height: 240px;
+    }
+
+    .btn-slide {
+        margin-top: 4rem;
+        height: 23px;
+        width: 23px;
+    }
+
+    /*Rodape*/
+    #footer {
+        padding: 0.5rem 5rem;
+    }
+}
+
+@media (max-width: 360px) {
+
+    /*Cabeçalho*/
+    #header {
+        padding: 1.5rem;
+    }
+
+    #logo-image img {
+        width: 85px;
+    }
+
+    .btn-sound img, .btn-login img {
+        width: 35px;
+    }
+
+    .btn-menu {
+        font-size: 20px;
+    }
+
+    /*Formulario*/
+    #form-login {
+        width: 340px;
+        top: 50%;
+    }
+
+    .btn-close {
+        top: 2%;
+        left: 84%;
+    }
+
+    .btn-close img {
+        width: 50px;
+    }
+
+    .title-form img {
+        width: 160px;
+    }
+
+    .input-form {
+        margin-bottom: 32px;
+    }
+
+    /*Parte 3 - Personagens*/
+    #caracter-image img {
+        height: 300px;
+    }
+
+    /*Parte 4 - Slides*/
+    .slide {
+        width: 340px;
+        height: 200px;
+    }
+
+    .btn-slide {
+        margin-top: 2rem;
+        height: 22px;
+        width: 22px;
+    }
+
+    /*Rodape*/
+    #footer {
+        padding: 0.5rem 2.5rem;
+    }
+}
